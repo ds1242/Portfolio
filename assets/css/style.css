@@ -52,6 +52,13 @@ header nav ul li a{
     font-weight:200;
     text-decoration: underline;
 }
+.hero{
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+    background-position:center;
+    display:flex;
+    
+}
 
 .about-me{
     display:flex;
@@ -82,5 +89,8 @@ header nav ul li a{
     }
     header nav ul li a{
         font-size: 40px;
+    }
+    .about-me{
+        flex:0 70%;
     }
 }
