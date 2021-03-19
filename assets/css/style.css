@@ -50,7 +50,7 @@ header nav ul li a{
     padding:10px 10px;
     font-size:2vw;
     font-weight:200;
-    text-decoration: underline;
+   
 }
 section{
     padding:50px;
@@ -128,13 +128,30 @@ section{
         justify-content: center;
     }
     header nav ul li a{
-        font-size: 40px;
+        font-size: 35px;
     }
-    .about-me{
-        flex:0 70%;
-    }
+    
     .hero{
         background-image:none;
         padding:0px;
+    }
+    .section-main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        flex: 70% 70%;
+    }
+    .section-title{
+        font-size: 30px;
+        border-right: none;
+        display:flex;
+        justify-content: center;
+        padding:0;
+        
+    }
+    .main-text{
+        font-size: 18px;
+        
     }
 }
