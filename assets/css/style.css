@@ -127,7 +127,32 @@ footer h2{
     color:var(--tertiary_color);
     margin:0 5px;   
 }
-
+.work-cards{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.main-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+}
+.sub-cards{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-title{
+    display:flex;
+    justify-content:center;
+}
+.card-style{
+    font-size: 25px;
+    color:var(--primary_color);
+}
 
 
 @media screen and (max-width:980px){
