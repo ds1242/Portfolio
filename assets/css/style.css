@@ -174,15 +174,13 @@ footer h2{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width:100%;
-    padding:10px;
+    padding:0px;
+    margin:0;
     border: 3px solid var(--cinqieme_color);
 }
-.sub-cards img{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
+.sub-cards img{    
     width:100%;
     
 }
@@ -190,8 +188,8 @@ footer h2{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    width:40%;
-    margin:10px;
+    width:45%;
+    margin:10px 0;
 }
 .card-title{
     display:flex;
@@ -281,5 +279,32 @@ footer h2{
     }
     .main-text ul li a{
         margin-left:5px
+    }
+    .section-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+    }
+    .work-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:0;
+        padding: 0;
+        width:100%;
+    }
+    .sub-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width:100%;
+        /* padding: 10px 0; */
+    }
+    .cards{
+        margin:0;
+        width:100%;
+        /* display:flex; */
+        /* padding: 10px 0; */
     }
 }
