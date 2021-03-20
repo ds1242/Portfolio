@@ -65,13 +65,12 @@ footer h2{
     color:var(--secondary_color);
 }
 .hero{
-    
     background-image: url("../images/mountain.jpg");
     background-size: cover;
     background-position:center;
-    padding-bottom:400px;
-    
+    padding-bottom:400px;   
 }
+
 
 .content-main{
     display:flex;
@@ -83,7 +82,7 @@ footer h2{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    flex:25em 5em 25em;
 
 }
 /* .section-main img{
@@ -222,12 +221,19 @@ footer h2{
     justify-content: center;
     align-items: center;
     padding-left: 50px;
-    /* width:100%; */
+    flex:10;
 }
 .resume img{
     height:100%;
     width:100%;
 }
+.resume-container{
+    width:100%;
+    height:100%;    
+}
+
+    
+
 
 
 
