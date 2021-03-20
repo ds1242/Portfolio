@@ -86,11 +86,11 @@ footer h2{
     
 
 }
-.section-main img{
+/* .section-main img{
     max-width: 200px;
     max-height: 300px;
     padding:0 30px 0 35px;
-}
+} */
 .section-title{
     display:flex;
     flex-wrap: nowrap;
@@ -101,10 +101,22 @@ footer h2{
     
     
 }
-.section-content{
+.about-me{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
 }
+
+
+.about-me img{
+    width:300px;
+    height:400px;
+    background-image: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main-text{
     font-size: 1.5vw;
 }
@@ -148,6 +160,7 @@ footer h2{
 .card-title{
     display:flex;
     justify-content:center;
+    flex-wrap:wrap;
 }
 .card-style{
     font-size: 25px;
