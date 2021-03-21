@@ -82,20 +82,13 @@ footer h2{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    flex:25em 5em 25em;
-
 }
-/* .section-main img{
-    max-width: 200px;
-    max-height: 300px;
-    padding:0 30px 0 35px;
-} */
+
 .section-title{
     display:flex;
     flex-wrap: nowrap;
-    flex:2;
+    flex-basis:25%;
     font-size: 2vw;
-    padding-right: 45px;
     border-right: 2px solid var(--primary_color);
     
     
@@ -104,6 +97,7 @@ footer h2{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-basis: 75%;;
     padding: 0 50px;
 }
 
@@ -126,6 +120,8 @@ footer h2{
 .main-text{
     font-size: 1.5vw;
     color:var(--primary_color);
+    display:flex;
+    flex-basis: 75%;
 }
 .main-text ul{
     display:flex;
@@ -150,7 +146,9 @@ footer h2{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 80px;
+    flex-basis: 75%;
+    padding:0 20px;
+    /* margin-left: 80px; */
 }
 
 .main-card{
@@ -220,6 +218,7 @@ footer h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-basis: 75%;
     padding-left: 50px;
     flex:10;
 }
