@@ -49,8 +49,13 @@ header nav ul{
 header nav ul li a{
     padding:10px 10px;
     font-size:2vw;
-    font-weight:200;
-   
+    font-weight:200;   
+}
+header h1 a:hover{
+    text-shadow:2px 2px 5px var(--tertiary_color);
+}
+header nav ul li a:hover{
+    text-shadow: 3px 3px 10px var(--tertiary_color);
 }
 section{
     padding:50px;
@@ -141,6 +146,9 @@ footer h2{
     text-decoration: none;
     color:var(--tertiary_color);
     margin:0 5px;   
+}
+.main-text a:hover{
+    text-shadow: 5px 5px 10px var(--secondary_color);
 }
 .work-cards{
     display:flex;
