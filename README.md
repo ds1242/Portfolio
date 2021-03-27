@@ -32,9 +32,9 @@ https://ds1242.github.io/Portfolio_Challenge2/
 
 ## Screenshots
 
-<img width= "150" src="./assets/images/Header-AboutMe.jpg" alt="header and about me">
-<img width= "150" src="./assets/images/Main-Card.jpg" alt="Upper work section">
-<img width= "150" src="./assets/images/Card-ContactInfo-Resume.jpg" alt="sub-cards with contact info section resume section">
+<img width= "500" src="./assets/images/Header-AboutMe.jpg" alt="header and about me">
+<img width= "500" src="./assets/images/Main-Card.jpg" alt="Upper work section">
+<img width= "500" src="./assets/images/Card-ContactInfo-Resume.jpg" alt="sub-cards with contact info section resume section">
 
 ## Contributions
 Made by David Shaw
