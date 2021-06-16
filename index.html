@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
     <title>David Shaw's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>    
 </head>
 <body>
@@ -60,26 +61,32 @@
             </div>
             <!-- Header card which is a different size than the four sub-cards -->
             <!-- link and preview image are placeholders until -->
-            <div class="work-cards">
-                <div class="main-card card-style">
-                    <a href="https://ds1242.github.io/tree-of-knowledge/" target="_blank">
-                        <img src="./assets/images/tree_of_knowledge.jpg">
+            <div class=" container">
+                <div class="card">
+                
+                    <a href="https://guarded-cliffs-83768.herokuapp.com/" target="_blank">
+                        <img class="card-img-top" src="./assets/images/davids-tech-blog.jpg">
                     </a>
-                    <div class="card-title">
+                    <div class="card-body">
+                    <div class="card-title card-style">
                         <h3>Tree of Knowledge</h3>
                         <h4>HTML/CSS/JavaScript</h4>
                     </div>
-                </div>
+                    </div>
+                
+                </div>  
                 <!-- Four sub-cards to show work -->
-                <div class="sub-cards">
+                <div class="container">
+                    <div class=" sub-cards row">
+                
                     <!-- card 1 -->
                     <div class="cards card-style">
-                        <a href="https://ds1242.github.io/placeholder/" target="_blank">
-                            <img src="./assets/images/placeholder3.jpg" alt="mountain biker riding at night as a placeholder">
+                        <a href="https://ds1242.github.io/tree-of-knowledge/" target="_blank">
+                            <img src="./assets/images/tree_of_knowledge.jpg" alt="mountain biker riding at night as a placeholder">
                         </a>
                         <div class="card-title">
-                            <h3>Placeholder Page</h3>
-                            <h4>Node/IoT</h4>
+                            <h3>Tree of Knowledge</h3>
+                            <h4>HTML/CSS/JavaScript</h4>
                         </div>
                     </div>
                     <!-- card 2 -->
@@ -92,6 +99,9 @@
                             <h4>React/Javascript/CSS</h4>
                         </div>
                     </div>
+                    </div>
+                    
+                    <div class="sub-cards row">
                     <!-- card 3 -->
                     <div class="cards card-style">
                         <a href="https://ds1242.github.io/placeholder/" target="_blank">
@@ -110,10 +120,11 @@
                         <div class="card-title">
                             <h3>Run Buddy</h3>
                             <h4>HTML/CSS</h4>
-                        </div>
-                        
+                        </div>                        
+                    </div>
                     </div>
                 </div>  
+                </div>
             </div>
         </section>
     <!-- Contact me with working links -->
@@ -134,10 +145,6 @@
              <li>
                 <strong>LinkedIn:</strong>
                 <a href="https://www.linkedin.com/in/david-shaw-95424788/" target="_blank">David Shaw</a>
-            </li>
-             <li>
-                 <strong>Portfolio:</strong>
-                 <a href="#">Coming Soon</a>
             </li>
          </ul>
          </div>
@@ -163,5 +170,6 @@
      <footer>         
             <h2>Thanks for Visiting!</h2>        
      </footer>
+    
 </body>
 </html>
